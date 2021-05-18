@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tabela</title>
+    <style>
+        #t1
+        {width: 400px;
+        height: 400px;
+        align: center;
+        margin-left: 39%;
+        }
+        #t2
+        {width: 100px;
+        height: 100px;
+        align: center;
+        margin-left: 21px;
+        }
+        #t3
+        {width: 100px;
+        height: 100px;
+        align: center;
+        margin-left: 20px;
+        }
+        td
+        {text-align: center;
+        }
+        caption
+        {text-align: center;
+        }
+    </style>
+</head>
+<body>
+<table id="t1" border="1">
+    <tr>
+        <td colspan="3" height="13%"><b>Rafał Matuszyk</b></td>
+    </tr>
+    <tr>
+        <td height="13%">Element 1.1</td>
+        <td height="13%">Element 1.2</td>
+        <td height="13%">Element 1.3</td>
+    </tr>
+    <tr>
+        <td colspan="3" height="13%">Element 2.1-2.3</td>
+    </tr>
+    <tr>
+        <td height="63%">
+            <table border="1" id="t2">
+                <caption>Element 3.1</caption>
+                <tr>
+                    <td rowspan="2">4.1-4.5</td>
+                    <td colspan="2">4.2-4.3</td>
+                </tr>
+                <tr>
+                    <td>5.2</td>
+                    <td>5.3</td>
+                </tr>
+            </table>
+        </td>
+        <td>Element 3.2</td>
+        <td>
+            <table border="1" id="t3">
+                <caption>Element 3.3</caption>
+                <tr>
+                    <td>A1</td>
+                    <td>A2</td>
+                    <td>A3</td>
+                </tr>
+                <tr>
+                    <td>B1</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
